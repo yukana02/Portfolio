@@ -1,0 +1,27 @@
+.img-center{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.kuning{
+    background-color:bisque
+}
+.abuabu{
+    background-color: gray;
+}
+.radius10{
+    border-radius: 10px;
+}
+.txt-white{
+    color: white;
+}
+p {
+    hyphens: auto;
+    
+}
+p.no-hyphen-numbers {
+    hyphens: none;
+}
+.avoid-line-break {
+    break-inside: avoid;
+}
