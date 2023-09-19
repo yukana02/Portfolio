@@ -25,3 +25,12 @@ p.no-hyphen-numbers {
 .avoid-line-break {
     break-inside: avoid;
 }
+@media (max-width: 768px) {
+    .teks {
+      width: 100%; /* Mengisi lebar elemen hingga 100% pada layar ponsel */
+    }
+  }
+  .max-30px {
+    max-width: 300px;
+    height: auto;
+}
