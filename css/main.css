@@ -39,3 +39,28 @@ p.no-hyphen-numbers {
         padding: 0;
     }
 }
+
+.animated-element {
+    transform: translateX(100%); /* Mengatur elemen di luar layar sebelah kanan */
+    opacity: 0; /* Mulai dengan opasitas 0 (transparan) */
+    transition: transform 1s ease, opacity 1s ease; /* Animasikan transform dan opacity */
+  }
+  
+  .animated-element.animated {
+    transform: translateX(0); /* Menggeser elemen ke posisi yang diinginkan */
+    opacity: 1; /* Kembalikan opasitas ke 1 (tidak transparan) */
+  }
+.atas-kebawah {
+    transform: translateY(-100);
+    opacity: 0;
+    transition: transform 2s ease, opacity 2s ease;
+}
+/* Tambahkan gaya animasi ke halaman utama */
+body {
+    opacity: 0; /* Set opasitas ke 0 untuk membuat halaman sembunyi */
+    transition: opacity 1s ease-in-out; /* Animasi opasitas selama 1 detik dengan efek ease-in-out */
+}
+
+body.show {
+    opacity: 1; /* Set opasitas ke 1 saat halaman ditampilkan */
+}
