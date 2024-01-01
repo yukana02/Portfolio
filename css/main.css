@@ -56,11 +56,3 @@ p.no-hyphen-numbers {
     transition: transform 2s ease, opacity 2s ease;
 }
 /* Tambahkan gaya animasi ke halaman utama */
-body {
-    opacity: 0; /* Set opasitas ke 0 untuk membuat halaman sembunyi */
-    transition: opacity 1s ease-in-out; /* Animasi opasitas selama 1 detik dengan efek ease-in-out */
-}
-
-body.show {
-    opacity: 1; /* Set opasitas ke 1 saat halaman ditampilkan */
-}
